@@ -59,6 +59,7 @@ class NavBar extends StatelessWidget {
                       ['fyp', '04/ FYP'],
                       ['skills', '05/ SKILLS'],
                       ['contact', '06/ CONTACT'],
+                      ['contact', '07/ CONTACT FORM'],
                     ])
                       _NavItem(
                         label: item[1],
@@ -164,6 +165,8 @@ class _MobileMenuState extends State<_MobileMenu> {
                   ['fyp', 'FYP'],
                   ['skills', 'SKILLS'],
                   ['contact', 'CONTACT'],
+                  ['contactform', 'CONTACT FORM'],
+
                 ])
                   GestureDetector(
                     onTap: () {

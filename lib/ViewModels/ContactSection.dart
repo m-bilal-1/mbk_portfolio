@@ -17,7 +17,7 @@ class ContactSection extends StatelessWidget {
     return Container(
       color: AppColors.surface,
       child: SectionWrapper(
-        sectionNum: '06',
+        sectionNum: '07',
         title: "Let's Connect",
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

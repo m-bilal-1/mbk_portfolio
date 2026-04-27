@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import '../Utils/AppColors.dart';
 import '../main.dart';
 import 'ContactSection.dart';
+import 'ContactSectionform.dart';
 import 'ExperienceSection.dart';
 import 'FooterWidget.dart';
 import 'FypSection.dart';
@@ -29,6 +30,7 @@ class _PortfolioHomeState extends State<PortfolioHome> {
     'fyp': GlobalKey(),
     'skills': GlobalKey(),
     'contact': GlobalKey(),
+    'contactform': GlobalKey(),
   };
   String _activeSection = 'home';
   bool _navSolid = false;
@@ -78,6 +80,7 @@ class _PortfolioHomeState extends State<PortfolioHome> {
                 ProjectsSection(key: _sectionKeys['projects']),
                 FypSection(key: _sectionKeys['fyp']),
                 SkillsSection(key: _sectionKeys['skills']),
+                ContactSectionForm(key: _sectionKeys['contactform']),
                 ContactSection(key: _sectionKeys['contact']),
                 const FooterWidget(),
               ],
