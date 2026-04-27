@@ -1,0 +1,31 @@
+name: mbk_portfolio
+description: Muhammad Bilal Khan - Flutter Developer Portfolio
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  url_launcher: ^6.2.5
+  visibility_detector: ^0.4.0+2
+  animated_text_kit: ^4.2.2
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - "Assets/projects/Advanced To-Do App/"
+    - "Assets/projects/AI Smart Health Monitor/"
+    - "Assets/projects/BMI Calculator & Tracker/"
+    - "Assets/projects/Car Management System/"
+    - "Assets/projects/Ktfinancial Website/"
+    - "Assets/projects/WhatsApp Clone/"
